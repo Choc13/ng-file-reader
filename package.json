@@ -1,0 +1,56 @@
+{
+  "name": "ng-file-reader",
+  "version": "0.0.0",
+  "description": "An angular wrapper around the JavaScript FileReader API",
+  "main": "dist/ng-file-reader.min.js",
+  "scripts": {
+    "dev": "webpack --config webpack.dev.config.js",
+    "watch": "webpack --config webpack.dev.config.js --watch --display-error-details",
+    "dist": "webpack --config webpack.dist.config.js",
+    "build": "typings install && npm run dist && npm run test",
+    "test": "karma start --single-run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Choc13/ng-file-reader.git"
+  },
+  "keywords": [
+    "angular",
+    "file",
+    "reader",
+    "filereader",
+    "javascript",
+    "api",
+    "service"
+  ],
+  "author": "Matt Thornton",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Choc13/ng-file-reader/issues"
+  },
+  "homepage": "https://github.com/Choc13/ng-file-reader#readme",
+  "peerDependencies": {
+    "angular": "^1.2.0"
+  },
+  "devDependencies": {
+    "angular": "^1.5.5",
+    "angular-mocks": "^1.5.5",
+    "del": "^2.2.0",
+    "jasmine-core": "^2.4.1",
+    "karma": "^0.13.22",
+    "karma-chrome-launcher": "^1.0.1",
+    "karma-coverage": "^1.0.0",
+    "karma-ie-launcher": "^1.0.0",
+    "karma-jasmine": "^1.0.2",
+    "karma-phantomjs-launcher": "^1.0.0",
+    "karma-sourcemap-loader": "^0.3.7",
+    "karma-webpack": "^1.7.0",
+    "phantomjs-prebuilt": "^2.1.7",
+    "ts-loader": "^0.8.2",
+    "tslint": "^3.10.2",
+    "tslint-loader": "^2.1.4",
+    "typescript": "^1.8.10",
+    "typings": "^1.0.4",
+    "webpack": "^1.13.0"
+  }
+}
