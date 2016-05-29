@@ -121,11 +121,7 @@
     "semicolon": [true, "always"],
     "switch-default": true,
     "trailing-comma": [
-      true,
-      {
-        "multiline": "always",
-        "singleline": "never"
-      }
+      false
     ],
     "triple-equals": [
       true,
