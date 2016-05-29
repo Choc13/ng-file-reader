@@ -1,0 +1,8 @@
+deploy:
+  provider: npm
+  email: matthew.thornton13@gmail.com
+  api_key:
+    secure: krLCuQWmlxXfSMmhFhbIrm5a1UqzC9By1DmT3780P58BuFvcRH9SDfFB9WJQR2Z98hs5Vbfmn90BwWDDmKBv2kskpJOAxaP4FSZW9Mt59pdfGipG+0axRnfUU3unN0V+gYEevGydczvz50IAayytxod6ZDVMNOSHT+Cma/q8GURMEb2piDjHRgIZdQGNZEGsI7jT3JvxtqDFp1/zE1Xdjyoj9Y0sTYbRzCzyogBqlmTXF2F0f1L9gt2yX3NxsI5vtrWHtq4O9CQ6K6Fg3ALA3M8K7BWe4qfTDrqVjc6/FeSs1GQsTM8wFuHELtb0zO6loQ7pp0mK0m3TtPPsRcmP37vX1k1zGNRqyu6mRrXHKZnRa4DyxwSVuoGlZU4dV+zfcwbpZLQn/Hf3QHXm8WNTQR/2CNDtQuJo4dFx6CeVZbJ+GfI/w47s48a2RT+q6XSj0ETdvXZKReB6Y/n/BM5hFTIa+kvdTfMe+S50WDjlA6QTWtKCZvcYrK/IpEM7qt9YdgSq+us0iP2Oz6YiOCnBLmprnnJwHzhiDCXt3en/wobtTxWA5KcqKJgBRn2fpCK90vbavKcxXemsjb0fnRgRm1iEKGujDH1yFR41aZH3P/a2la0z3TbzohEmK0XuTlhQvp0j/y6eiM06SsuLLHbzgBH27MKMS7WCD57WSz7eym4=
+  on:
+    tags: true
+    repo: Choc13/ng-file-reader
