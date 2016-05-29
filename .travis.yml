@@ -1,5 +1,6 @@
 language: node_js
 node_js: node
+script: npm run dist
 deploy:
   provider: npm
   email: matthew.thornton13@gmail.com
