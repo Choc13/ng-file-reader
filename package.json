@@ -1,6 +1,6 @@
 {
   "name": "ng-file-reader",
-  "version": "0.0.0",
+  "version": "0.1.1",
   "description": "An angular wrapper around the JavaScript FileReader API",
   "main": "dist/ng-file-reader.min.js",
   "scripts": {
