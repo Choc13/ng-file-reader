@@ -44,7 +44,7 @@ An angular wrapper around the JavaScript [FileReader API](https://developer.mozi
         
         let vm = this;
         
-        ngFileReader.readAsArrayBuffer(file, (progress) => console.log(`${progress}% complete`)
+        ngFileReader.readAsArrayBuffer(file, (progress) => console.log(`${progress}% complete`))
             .then((buffer) => {vm.buffer = buffer});
     }
     ```
