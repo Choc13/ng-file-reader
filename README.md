@@ -10,7 +10,9 @@ An angular wrapper around the JavaScript [FileReader API](https://developer.mozi
 ## Installation
 
 ### NPM
-`npm install ng-file-reader --save`
+```sh
+npm install ng-file-reader --save
+```
 
 ## Usage
 1. Include the script in your project using whatever method your project uses. For example:
