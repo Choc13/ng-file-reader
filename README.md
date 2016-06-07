@@ -27,7 +27,7 @@ An angular wrapper around the JavaScript [FileReader API](https://developer.mozi
 
     * Or go old school and load it in your `index.html`
     ```html
-    <script type="text/javascript" src="node_modules/ng-file-reader/ng-file-reader.min.js"></script>
+    <script type="text/javascript" src="node_modules/ng-file-reader/dist/ng-file-reader.min.js"></script>
     ```
 
 2. Add it as an angular dependency
