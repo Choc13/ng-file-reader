@@ -13,41 +13,41 @@ An angular wrapper around the JavaScript [FileReader API](https://developer.mozi
 `npm install ng-file-reader`
 
 ## Usage
-Include the script in your project using whatever method your project uses. For example:
+1. Include the script in your project using whatever method your project uses. For example:
 
-* Require it
-```js
-require('ng-file-reader');
-```
+    * Require it
+    ```js
+    require('ng-file-reader');
+    ```
 
-* Import it
-```ts
-import 'ng-file-reader';
-```
+    * Import it
+    ```ts
+    import 'ng-file-reader';
+    ```
 
-* Or go old school and load it in your `index.html`
-```html
-<script type="text/javascript" src="node_modules/ng-file-reader/ng-file-reader.min.js"></script>
-```
+    * Or go old school and load it in your `index.html`
+    ```html
+    <script type="text/javascript" src="node_modules/ng-file-reader/ng-file-reader.min.js"></script>
+    ```
 
-Add it as an angular dependency
+2. Add it as an angular dependency
 
-```js
-angular.module('myapp', ['ngFileReader']);
-```
+    ```js
+    angular.module('myapp', ['ngFileReader']);
+    ```
 
-Inject `ngFileReader` into your controllers or services and use it like so:
+3. Inject `ngFileReader` into your controllers or services and use it like so:
 
-```js
-MyController.$inject = ['ngFileReader'];
-function MyController(ngFileReader) {
-    
-    let vm = this;
-    
-    ngFileReader.readAsArrayBuffer(file, (progress) => console.log(`${progress}% complete`)
-        .then((buffer) => {vm.buffer = buffer});
-}
-```
+    ```js
+    MyController.$inject = ['ngFileReader'];
+    function MyController(ngFileReader) {
+        
+        let vm = this;
+        
+        ngFileReader.readAsArrayBuffer(file, (progress) => console.log(`${progress}% complete`)
+            .then((buffer) => {vm.buffer = buffer});
+    }
+    ```
 
 ## API
 ### FileReaderService
