@@ -4,9 +4,9 @@
   "description": "An angular wrapper around the JavaScript FileReader API",
   "main": "dist/ng-file-reader.min.js",
   "scripts": {
+    "build": "typings install && npm run dist",
     "dev": "webpack --config webpack.dev.config.js",
     "dist": "webpack --config webpack.dist.config.js",
-    "postinstall": "typings install",
     "test": "karma start --single-run --browsers PhantomJS",
     "watch": "webpack --config webpack.dev.config.js --watch --display-error-details"
   },
